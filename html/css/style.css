@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Syne', sans-serif;
+}
+
+/* Header start */
+#container {
+    width: 1440px;
+    margin: 0 auto;
+}
+#header{
+    background: #f5f4f2;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.left-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.left-con>h1{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.left-con>a>img {
+    width: 60px;
+    padding-top: 10px;
+}
+
+.right-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav>ul>li>a {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: black;
+}
+
+.nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.platform {
+}
+
+.platform>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px
+}
+
+.platform>ul>li>a>svg {
+    width: 20px;
+}
+
+/* Header end */
+
+/* Karusel section Start*/
+
+#karusel {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/background9.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#karusel::before {
+    content: '';
+    position: absolute;
+    opacity: 0.6;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.carousel1,
+.carousel2,
+.carousel3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.karusel-title {
+    position: relative;
+    width: 550px;
+    padding-top: 25px;
+
+}
+
+.karusel-title>h1 {
+    position: relative;
+    font-family: 'Syne', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    padding-right: 45px;
+    letter-spacing: 5px;
+
+}
+.karusel-title>p{
+    
+    color:#232323;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.read-btn{
+    margin-top: 24px;
+    border: 2px solid #ff2b09; ;
+    width: 275px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.read-btn>a{
+    
+    padding: 25px;
+    color: #121212;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.karusel-img{
+    position: relative;
+    padding-right: 15px;
+}
+
+.karusel-img>img{
+    width: 650px;
+    padding-top: 85px;
+    text-transform: uppercase;
+}
