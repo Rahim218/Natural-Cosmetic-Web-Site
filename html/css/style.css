@@ -8,8 +8,9 @@
 }
 
 /* Header start */
-#container {
-    width: 1440px;
+.container {
+    max-width: 1440px;
+    width: 84.7%;
     margin: 0 auto;
 }
 #header{
@@ -19,8 +20,8 @@
 .header-nav {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 15px;
-    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .left-con {
@@ -30,9 +31,10 @@
     gap: 30px;
 }
 .left-con>h1{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     letter-spacing: 2px;
+    
 }
 
 .left-con>a>img {
@@ -44,17 +46,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .nav {
-    margin-right: 80px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .nav>ul>li>a {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     color: black;
 }
@@ -63,21 +66,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
 }
 
-.platform {
-}
+
 
 .platform>ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px
+    gap: 20px
 }
 
 .platform>ul>li>a>svg {
-    width: 20px;
+    width: 15px;
 }
 
 /* Header end */
@@ -115,6 +117,7 @@
     position: relative;
     width: 550px;
     padding-top: 25px;
+    padding-left: 50px;
 
 }
 
@@ -158,10 +161,72 @@
 .karusel-img{
     position: relative;
     padding-right: 15px;
+
 }
 
 .karusel-img>img{
-    width: 650px;
-    padding-top: 85px;
+    width: 550px;
     text-transform: uppercase;
+    padding-top: 70px;
+    padding-left: 50px;
 }
+
+/* About section start */
+.about-cards {
+    display: flex;
+    justify-content: center;
+    gap :30px;
+
+}
+.card-icon>svg{
+    width: 95px;
+    
+    fill: #ff2b09;
+    margin-bottom: 2rem;
+}
+.about{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #ffffff;
+}
+.about-title>h1{
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    text-align: center;
+    padding-bottom: 85px;
+
+}
+.about-card{
+    text-align: center;
+    background: #f2f2f2;
+    padding: 20px 30px 50px;
+    margin: 25px 0 0;
+    width: 86%;
+}
+.card-title>h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.5;
+   color: #23252f
+}
+.card-title>p {
+    color: #232323;
+    font-size: 1rem;
+    line-height: 1.5
+    ;
+    margin-top: 10px;
+    text-align: center;
+}
+.property-con{
+    display: flex;
+}
+
+.prop-con-right>img{
+    width: 80%;
+}
+
+
+
+
+/* About section end */
+
