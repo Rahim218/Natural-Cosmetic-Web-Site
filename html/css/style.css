@@ -13,7 +13,8 @@
     width: 88.7%;
     margin: 0 auto;
 }
-#header{
+
+#header {
     background: #f5f4f2;
 }
 
@@ -30,11 +31,12 @@
     justify-content: center;
     gap: 30px;
 }
-.left-con>h1{
+
+.left-con>h1 {
     font-size: 17px;
     font-weight: 600;
     letter-spacing: 2px;
-    
+
 }
 
 .left-con>a>img {
@@ -50,7 +52,7 @@
 }
 
 .nav {
-   
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,13 +108,15 @@
     left: 0;
     right: 0;
 }
+
 .carousel1,
 .carousel2,
-.carousel3{
+.carousel3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .karusel-title {
     position: relative;
     width: 550px;
@@ -130,41 +134,45 @@
     letter-spacing: 5px;
 
 }
-.karusel-title>p{
-    
-    color:#232323;
+
+.karusel-title>p {
+
+    color: #232323;
     font-family: 'EB Garamond', serif;
     font-size: 1.8rem;
     line-height: 1.5;
     margin-top: 10px;
 }
-.read-btn{
+
+.read-btn {
     margin-top: 24px;
-    border: 2px solid #ff2b09; ;
-    width: 275px;
-    height: 55px;
+    border: 2px solid #ff2b09;
+    ;
+    width: 205px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    
+
 }
-.read-btn>a{
-    
+
+.read-btn>a {
+
     padding: 25px;
     color: #121212;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }
 
 
-.karusel-img{
+.karusel-img {
     position: relative;
     padding-right: 15px;
 
 }
 
-.karusel-img>img{
+.karusel-img>img {
     width: 550px;
     text-transform: uppercase;
     padding-top: 70px;
@@ -175,81 +183,98 @@
 .about-cards {
     display: flex;
     justify-content: center;
-    gap :30px;
+    gap: 30px;
 
 }
-.card-icon>svg{
+
+.card-icon>svg {
     width: 80px;
-    
+
     fill: #ff2b09;
     margin-bottom: 2rem;
 }
-.about{
+
+.about {
     padding-top: 6rem;
     padding-bottom: 6rem;
     background-color: #ffffff;
 }
-.about-title>h1{
+
+.about-title>h1 {
     font-size: 2.9376rem;
     line-height: 1.1;
     text-align: center;
     padding-bottom: 85px;
 
 }
-.about-card{
+
+.about-card {
     text-align: center;
     background: #f2f2f2;
     padding: 20px 30px 50px;
     margin: 25px 0 0;
     width: 86%;
 }
-.card-title>h3{
+
+.card-title>h3 {
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 1.5;
-   color: #23252f
+    color: #23252f
 }
+
 .card-title>p {
     color: #232323;
     font-size: 1rem;
-    line-height: 1.5
-    ;
+    line-height: 1.5;
     margin-top: 10px;
     text-align: center;
 
 }
+
 /* About section end */
 
 /*Property section start*/
-.property-con{
+#property {
+    padding: 5rem 0;
+    background-color: #ffffff;
+}
+
+.property-con {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    
+
+
 }
 
 
-.prop-con-left{
+.prop-con-left {
     width: 50%;
     padding: 0 7rem;
 }
-.prop-con-right{
+
+.prop-con-right {
     width: 50%;
 }
-.prop-con-right>img{
+
+.prop-con-right>img {
     width: 100%;
 }
-.prop-con-left> h1{
+
+.prop-con-left>h1 {
     text-transform: uppercase;
     font-size: 2.9376rem;
     line-height: 1.1;
-    
+
 }
-.ingridents{
+
+.ingridents {
     border-bottom: 1px solid black;
 }
-.ingridents>p{
+
+.ingridents>p {
     font-family: 'EB Garamond', serif;
     font-size: 1.4375rem;
     line-height: 1.5;
@@ -257,32 +282,34 @@
     padding-top: 9px;
     padding-bottom: 1.5rem;
 }
-.safety{
+
+.safety {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
     margin-top: 20px;
     padding-bottom: 20px;
-    
+
 }
+
 .safety>p,
 .quality>p,
-.vegan>p
-{
+.vegan>p {
     color: #000000;
     text-transform: uppercase;
     font-size: 1.0525rem;
     line-height: 1.5;
 }
 
-.quality{
+.quality {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
     margin-top: 20px;
     padding-bottom: 20px;
 }
-.vegan{
+
+.vegan {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
@@ -292,12 +319,190 @@
 
 /*Property section end*/
 
+/*Cheklist section start*/
+
+#checklist {
+    background-color: #ffffff;
+    padding: 5rem 0;
+}
+
+.checklist {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+
+}
+
+.checklist>div {
+    padding: 12rem 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.checklist>div>h1 {
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    color: #232323;
 
 
+}
+
+.link {
+    color: #626262;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+/*Cheklist section end*/
+
+/*Fabolous section start*/
+#fabolous {
+    padding: 5rem 0;
+}
+
+.fabolous-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5rem;
+}
+
+.fabolous-left-con {
+    width: 50%;
+
+}
+
+.fabolous-left-con>img {
+    width: 100%;
+}
+
+.fabolous-right-con {
+    width: 50%;
+}
+
+.fabolous-right-con>h1 {
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    padding-right: 6rem;
+}
+
+.p-ligula {
+    font-size: 1.0525rem;
+    line-height: 1.5;
+    margin-top: 0.7rem;
+}
+
+.p-italic {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4375rem;
+    line-height: 1.5;
+    margin-top: 0.7rem;
+    color: #626262;
+}
+
+/*Fabolous section end*/
+
+/* Gift section start */
+#gift {
+    padding: 5rem 0;
+}
+
+.gift {
+    display: flex;
+    text-align: center;
+
+}
+
+.gift-left-con {
+    width: 50%;
+}
+
+.gift-left-con>img {
+    width: 100%;
+}
+
+.gift-right-con {
+    width: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.gift-right-con>div>img {
+    width: 30%;
+}
+
+.gift-right-con>div>h2 {
+    font-size: 1.875rem;
+    line-height: 1.1;
+    letter-spacing: 1.5px;
 
 
+}
 
 
+/* Gift section end */
+
+/*Care-cream section start*/
+#care-cream {
+    padding: 5rem 0;
+}
+
+.care-cream {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.care-cream-left-con {
+    width: 50%;
+
+}
+
+.care-cream-left-con>h1 {
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.care-cream-right-con {
+    width: 50%;
+    display: flex;
+}
+
+.left-side {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item1.jpg
+);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.left-side>div{
+   margin-bottom: 30px;
+   text-align: center;
+}
 
 
+.right-side {
 
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 50%;
+}
+
+
+/*Care-cream section end*/
