@@ -91,11 +91,11 @@
 #karusel {
     background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/background9.jpg);
     width: 100%;
-    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
+    padding: 5rem 0;
 }
 
 #karusel::before {
@@ -109,17 +109,17 @@
     right: 0;
 }
 
-.carousel1,
-.carousel2,
-.carousel3 {
+.carousel1
+ {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 15px;
 }
 
 .karusel-title {
     position: relative;
-    width: 550px;
+    width: 50%;
     padding-top: 25px;
     padding-left: 50px;
 
@@ -128,10 +128,10 @@
 .karusel-title>h1 {
     position: relative;
     font-family: 'Syne', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.1;
     padding-right: 45px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 
 }
 
@@ -139,7 +139,7 @@
 
     color: #232323;
     font-family: 'EB Garamond', serif;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 1.5;
     margin-top: 10px;
 }
@@ -169,14 +169,14 @@
 .karusel-img {
     position: relative;
     padding-right: 15px;
+    width: 50%;
 
 }
 
 .karusel-img>img {
-    width: 550px;
-    text-transform: uppercase;
-    padding-top: 70px;
-    padding-left: 50px;
+    width: 100%;
+    
+ 
 }
 
 /* About section start */
@@ -217,7 +217,7 @@
 }
 
 .card-title>h3 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 600;
     line-height: 1.5;
     color: #23252f
@@ -473,6 +473,7 @@
 .care-cream-right-con {
     width: 50%;
     display: flex;
+    gap: 32px;
 }
 
 .left-side {
@@ -488,9 +489,12 @@
     align-items: flex-end;
 
 }
-.left-side>div{
-   margin-bottom: 30px;
-   text-align: center;
+
+
+
+.price {
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 
@@ -502,7 +506,239 @@
     background-size: cover;
     height: 50vh;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 
+
+
+
 /*Care-cream section end*/
+
+/*Best-seller section start*/
+#best-seller{
+    padding: 5rem 0;;
+}
+.best-products {
+    display: flex;
+    gap: 25px;
+}
+
+.product-care-cream {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item1.jpg
+);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
+.product-relief {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+.product-body {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.3%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.title{
+    padding-bottom: 80px;
+}
+
+.title>h1 {
+    font-weight: bold;
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+
+/*Best-seller section end*/
+
+/* Our products section start */
+#our-products{
+    padding: 5rem 0;
+}
+.up-products{
+    display: flex;
+    gap:25px;
+    margin-bottom:25px
+}
+.bottom-products{
+    display: flex;
+    gap:25px
+
+}
+
+
+
+
+/* Our products section start */
+
+/*Recommended section start*/
+#recommended{
+    padding: 5rem 0;
+
+}
+.recommends>img{
+    width: 100%;
+}
+/*Recommended section end*/
+
+/*Contact section start*/
+#contact{
+    padding: 5rem 0;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-left{
+    width: 40%;
+    padding-right: 5rem;
+    padding-left: 4rem;
+}
+.contact-left>h2{
+    font-size: 1.875rem;
+    line-height: 1.1;
+    font-weight: bold;
+}
+.contact-links{
+    margin-top:10px
+}
+.contact-links>ul>li{
+    margin-top: 5px;
+}
+.contact-links>ul>li>a{
+    color: #0c0c0c;
+    font-size: 1.0525rem;
+    line-height: 1px;
+}
+.contact-right{
+    width: 60%;
+    padding-top: 5rem;
+    padding-left: 2.5rem;
+    
+}
+.contact-right> form{
+    width:90%;
+}
+
+.name-email{
+    display: flex;
+    width: 100%;
+
+}
+.name-email>div{
+    width: 50%;
+}
+
+.name-email>div>input::placeholder{
+    padding: 25px ;
+
+}
+.name-email>div>input{
+    height: 70px;
+    width: 100%;
+    border: 1px solid#cdcdcb;
+}
+
+textarea{
+    border: 1px solid #cdcdcb;
+}
+textarea::placeholder{
+    padding: 25px;;
+}
+
+/*Contact section start*/
+
+/* Footer start */
+
+/* Footer end */
+
+#footer{
+    padding: 5rem 0;
+    background-color: #f2f2f2;
+}
+.footer{
+    display: flex;
+    gap:8rem;
+    
+}
+.footer-img{
+    padding-left: 19px;
+}
+.footer-img>img{
+    width: 140px;
+}
+.footer-left{
+    width: 33.3%;
+    display: flex;
+    gap: 5rem;
+}
+.footer-platforms{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.footer ul li a{
+    display: inline-block;
+    font-size: 1rem;
+    color: #020103;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.footer-right-con>h4{
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+.footer-form>form>input::placeholder{
+    padding: 0.6rem 0.6rem;
+    font-size: 16px;
+}
+.footer-form>form>input {
+    padding: 1rem;
+    border: 1px solid #e7e7e7;
+    background-color: #f2f2f2;
+    margin-top: 17px;
+}
+button{
+    padding: 0.7rem 1.2rem;
+    border: 2.5px solid #000000;
+    background: #f2f2f2;
+    margin-left :5px;
+}
+button>a{
+    font-size: 16px;
+    color: #000000;
+}
+
