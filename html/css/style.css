@@ -58,7 +58,12 @@
     align-items: center;
 }
 
-.nav>ul>li>a {
+.nav>ul>li>div:hover{
+    border-bottom: 2.5px solid black;
+
+}
+
+.nav>ul>li>div>a {
     font-size: 1.1rem;
     line-height: 1.5;
     color: black;
@@ -121,7 +126,7 @@
     position: relative;
     width: 50%;
     padding-top: 25px;
-    padding-left: 50px;
+    padding-left: 4rem;
 
 }
 
@@ -156,6 +161,14 @@
 
 
 }
+.read-btn:hover{
+    background-color: #ff2b09;
+    transition: 1s;
+
+}
+.read-btn>a:hover{
+    color: white;
+}
 
 .read-btn>a {
 
@@ -170,11 +183,14 @@
     position: relative;
     padding-right: 15px;
     width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
 }
 
 .karusel-img>img {
-    width: 100%;
+    width: 90%;
+    position: relative;
     
  
 }
@@ -351,7 +367,19 @@
     color: #626262;
     display: inline-block;
     margin-top: 20px;
+    font-size: 1rem;
 
+}
+.link:hover{
+    color: #ff2b09;
+}
+.get-link{
+    width: 20%;
+    margin: 0 auto;
+}
+.get-link:hover{
+    border-bottom: 2.5px solid #ff2b09;
+    
 }
 
 /*Cheklist section end*/
@@ -443,6 +471,14 @@
 
 
 }
+.get-link2{
+    width: 16%;
+    margin: 0 auto;
+}
+.get-link2:hover{
+    border-bottom: 2.5px solid #ff2b09;
+}
+
 
 
 /* Gift section end */
@@ -634,17 +670,17 @@
 .contact-links{
     margin-top:10px
 }
-.contact-links>ul>li{
-    margin-top: 5px;
-}
+
 .contact-links>ul>li>a{
     color: #0c0c0c;
     font-size: 1.0525rem;
     line-height: 1px;
+    display: inline-block;
+    margin-top: 20px;
 }
 .contact-right{
     width: 60%;
-    padding-top: 5rem;
+    padding-top: 1rem;
     padding-left: 2.5rem;
     
 }
@@ -678,11 +714,21 @@ textarea::placeholder{
     padding: 25px;;
 }
 
+.contact-link:hover{
+    color: #ff2b09;
+    transition: 0.2s;
+}
+.cursor-text:hover{
+    cursor: text;
+    color: #ff2b09;
+    transition: 0.2s;
+}
+
 /*Contact section start*/
 
 /* Footer start */
 
-/* Footer end */
+
 
 #footer{
     padding: 5rem 0;
@@ -733,13 +779,28 @@ textarea::placeholder{
 }
 button{
     padding: 0.7rem 1.2rem;
-    border: 2.5px solid #000000;
+   color: black;
     background: #f2f2f2;
     margin-left :5px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
 }
 button>a{
-    font-size: 16px;
-    color: #000000;
+  
 }
+button>a:hover{
+    color: white;
+    
+}
+.footer-left-links>ul>li>a:hover,
+.footer-left-con>ul>li>a:hover{
+color: #ff2b09;
+transition: 0.2s;
+}
+
 /*Footer section end*/
 
